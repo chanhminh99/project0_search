@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search Advanced</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header__navbar header__navbar--advance">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <a href="index.html" class="header__navbar-item-link">
+                            Google Search
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="content">
+            Advanced Search
+        </div>
+        <div class="separate"></div>
+        <div class="app__container">
+            <div class="form__container">
+                <form action="https://google.com/search" class="form__advance">
+                    <div class="form__search-wrapper">
+                        <span class="search__label-text">Seach for...</span>
+                        <span class="search__label-info">To do this work in the search box.</span>
+                    </div>
+
+                    <div class="form__search-wrapper">
+                        <span class="search__input-text">all these words:</span>
+                        <input type="text" class="search__input" name="as_q" value="" autocomplete="off">
+                        <span class="search__input-info">Enter the key words:dog mouse</span>
+                    </div>
+
+                    <div class="form__search-wrapper">
+                        <span class="search__input-text">this exact word or phrase:</span>
+                        <input type="text" class="search__input" name="as_epq" value="" autocomplete="off">
+                        <span class="search__input-info">Put the correct word in quotation marks:</span>
+                    </div>
+
+                    <div class="form__search-wrapper">
+                        <span class="search__input-text">any of these words:</span>
+                        <input type="text" class="search__input" name="as_oq" value="" autocomplete="off">
+                        <span class="search__input-info">Enter the OR between all the words you want: minimize the standard OR</span>
+                    </div>
+
+                    <div class="form__search-wrapper">
+                        <span class="search__input-text">none of these words:</span>
+                        <input type="text" class="search__input" name="as_eq" value="" autocomplete="off">
+                        <span class="search__input-info">Put the minus sign in front of the word you don't want: -tick, -sex</span>
+                    </div>
+                    <input name="tbs" type="hidden" value="">
+                    <div class="form__search-wrapper">
+                        <input type="submit" class="btn search__input-button" value="Search Advance">
+                    </div>
+                    <!-- <div class="form__search-input">
+                        <input type="text" name="q" class="form__search-text">
+                        <input name="tbm" value="isch" type="hidden">
+                        
+                    </div> -->
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
